@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-color: rgb(225, 220, 220);
+}
+nav {
+  background-image: url(https://www.youtube.com/embed/hl_ohTemoUo?playlist=hl_ohTemoUo&loop=1&autoplay=1&controls=0&showinfo=0&mute=1&disablekb=1&modestbranding=1);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cinemexLogo {
+  width: 100px;
+  height: 20%;
+}
+a {
+  margin: 5px;
+  text-decoration: none;
+}
+a:hover {
+  background-color: crimson;
+  border-radius: 7px;
+  padding: 2px;
+}
