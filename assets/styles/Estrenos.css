@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap');
+
+.ListaEstrenos{
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    float: left;
+    margin-right: 1px;
+    padding: 0 2px;
+
+}
