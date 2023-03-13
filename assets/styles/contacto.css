@@ -1,0 +1,100 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cinemexLogo {
+    width: 100px;
+    height: 20%;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font-size: 17px;
+
+}
+
+nav>a:hover {
+    background-color: crimson;
+    color: white;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+textarea {
+    resize: none;
+    background-color: #e6e6e6;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+section {
+    float: left;
+    width: 60%;
+    margin: 0.5em 3em 0em 0em;
+    padding: 0.5em 2em;
+}
+
+.header {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.privacy {
+    text-decoration: none;
+    color: red;
+}
+.text-in{
+    font-size: 17px;
+    line-height: 25px;
+    color: #495057;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: #fff;
+    padding: 0.5em 2em;
+}
+
+aside>img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background-color: #3d3d3d;
+    height: 250px;
+    color: white;
+    clear: both;
+}
+
+footer>h1 {
+    padding: 30px;
+}
+
+footer>img {
+    width: 30px;
+    height: 30px;
+    padding: 0 0 0 30px;
+}
