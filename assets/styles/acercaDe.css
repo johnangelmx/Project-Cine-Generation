@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(225, 220, 220);
+}
+nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cinemexLogo {
+  width: 100px;
+  height: 20%;
+}
+a {
+  margin: 5px;
+  text-decoration: none;
+}
+a:hover {
+  background-color: crimson;
+  border-radius: 7px;
+  padding: 2px;
+}
+.card {
+  width: 85%;
+}
+p {
+  text-align: justify;
+}
+ul,
+ol {
+  text-align: justify;
+}
