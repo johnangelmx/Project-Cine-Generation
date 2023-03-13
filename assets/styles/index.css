@@ -4,6 +4,10 @@
 }
 body {
   background-color: rgb(225, 220, 220);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(http://sic.cultura.gob.mx/images/128131);
 }
 nav {
   background-color: white;
