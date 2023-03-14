@@ -21,7 +21,9 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: crimson;
-  border-radius: 7px;
-  padding: 2px;
+  transition: 0.5s linear;
+  box-shadow: 0 0 5px rgb(194, 14, 50);
+  border-radius: 5px;
+  pad: 1px;
+  color: red;
 }
