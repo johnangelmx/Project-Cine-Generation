@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap");
 body {
-  background-color: rgb(225, 220, 220);
+  background-color: rgb(232, 232, 232);
+  font-family: "Lato", sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  font-style: oblique;
 }
 nav {
   background-color: white;
@@ -17,14 +22,59 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: crimson;
-  border-radius: 7px;
-  padding: 2px;
+  transition: 0.5s linear;
+  box-shadow: 0 0 5px rgb(194, 14, 50);
+  border-radius: 5px;
+  pad: 1px;
+  color: red;
 }
+
 .card {
-  width: 85%;
+  position: relative;
+  width: 90%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgb(196, 30, 30);
 }
+.cardNosotros {
+  background: linear-gradient(
+      rgba(221, 222, 226, 0.75),
+      rgba(194, 195, 199, 0.75)
+    ),
+    url("https://i0.wp.com/eltiempolatino.com/wp-content/uploads/2023/03/Super-Mario-Movie.png?fit=1200%2C675&ssl=1")
+      no-repeat center center;
+  background-size: cover;
+}
+.cardMision {
+  background: linear-gradient(rgba(93, 93, 96, 0.75), rgba(68, 69, 70, 0.75)),
+    url("https://entradas.creed3pelicula.com.ar/images/share.jpg") no-repeat
+      center center;
+  background-size: cover;
+  color: white;
+}
+.cardValores {
+  background: linear-gradient(rgba(42, 42, 44, 0.75), rgba(55, 57, 58, 0.75)),
+    url("https://www.puroshow.com/u/fotografias/m/2021/8/8/f1280x720-24203_155878_5050.jpg")
+      no-repeat center center;
+  background-size: cover;
+  color: whitesmoke;
+}
+.cardJuramento {
+  background: linear-gradient(
+      rgba(221, 222, 226, 0.75),
+      rgba(194, 195, 199, 0.75)
+    ),
+    url("https://cdn.atomix.vg/wp-content/uploads/2022/12/demon-slayer.jpg")
+      no-repeat center center;
+  background-size: cover;
+}
+
 p {
+  align-content: center;
+
   text-align: justify;
 }
 ul,
